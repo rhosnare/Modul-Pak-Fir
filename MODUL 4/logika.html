@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Operator Logika Rhosid</title>
+</head>
+<body>
+  <h2>Operator Logika</h2>
+  <script>
+    let umur = 20;
+    let punyaKTP = true;
+
+    let bisaVote = umur >= 17 && punyaKTP;
+    let tidakPunyaKTP = !punyaKTP;
+
+    document.write("Bisa memilih (umur >=17 dan punya KTP): " + bisaVote + "<br>");
+    document.write("Tidak punya KTP: " + tidakPunyaKTP + "<br>");
+
+    let cukupUmurAtauKTP = umur >= 17 || punyaKTP;
+    document.write("Cukup umur atau punya KTP: " + cukupUmurAtauKTP + "<br>");
+  </script>
+</body>
+</html>
